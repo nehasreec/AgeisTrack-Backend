@@ -22,7 +22,7 @@ app.use("/whistleblower", whistleblowerRouter);
 
 mongoose
 .connect(
-  "mongodb+srv://nehasrinivas08:Nehasree08.@nehasree.1gq2m.mongodb.net/Ageis"
+  <"mongodb url">
 )
   // .connect(dbUri)
   .then(() => {
